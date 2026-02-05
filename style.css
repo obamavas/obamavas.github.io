@@ -100,3 +100,26 @@ img {
     opacity: 0;
   }
 }
+/* First page GIF styling */
+.first-page-gif {
+  width: 80%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Responsive adjustment */
+@media (max-width: 500px) {
+  .first-page-gif {
+    width: 95%;
+    max-width: 250px;
+    margin-bottom: 0.8rem;
+  }
+}
+.first-page-gif {
+  animation: bounce 2s infinite;
+}
+
+
